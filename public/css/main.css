@@ -1,0 +1,129 @@
+@font-face {
+    font-family: Gilroy;
+    font-display: block;
+    src: url(../fonts/Gilroy800.woff2) format("woff2"),
+         url(../fonts/Gilroy800.woff) format("woff"),
+         url(../fonts/Gilroy800.ttf) format("truetype");
+         font-weight: 800;
+         font-style: normal;
+}
+
+.section-top {
+    position: relative;
+    z-index: 0;
+    height: 120vh;
+    background: radial-gradient(368.65px at 30.21% 31.52%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(137.51deg, #123239 13.63%, #041519 76.7%);
+}
+
+.name-container {
+    position: relative;
+    left: 13%;
+    top: 8%;
+    width: fit-content;
+    z-index: 5;
+}
+
+.name-container .name {
+    font-family: Gilroy, -apple-system, BlinkMacSystemFont, 'Open Sans', 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 10vw;
+    line-height: 8vw;
+    letter-spacing: -0.01em;
+    text-shadow: 0px 0px 20px rgba(11, 31, 36, 0.3);
+    position: relative;
+    z-index: 5;
+}
+
+.section-top .name.first {
+    color: #3B7886;
+}
+
+.section-top .name.last {
+    color: #204B55;
+}
+
+.blob {
+    position: inherit;
+    z-index: 1;
+    pointer-events: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.blob.topleftblob {
+    width: 23.3%;
+    max-height: 15%;
+}
+
+.blob.topbottomblob {
+    max-width: 16%;
+    height: 50%;
+    position: absolute;
+    left: 0%;
+    bottom: 5%;
+}
+
+.toprightblobstack {
+    position: absolute;
+    position: absolute;
+    right: 0%;
+    width: 29%;
+    max-height: 68%;
+    top: 25%;
+}
+
+.blob.meblob {
+    position: absolute;
+    right: 10%;
+    top: -25%;
+    width: 122%;
+    max-height: 100%;
+    z-index: 4;
+}
+
+.blob.toprightblob {
+    position: relative;
+    width: 100%;
+    z-index: 2;
+}
+
+.blob.photoblob {
+    position: absolute;
+    right: 8%;
+    width: 130%;
+    bottom: -25%;
+    z-index: 3;
+}
+
+.blobNathan {
+    fill: url(#image);
+}
+
+.blobMountains {
+    fill: url(#mountains-image);
+}
+
+.comingSoon {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    letter-spacing: -0.01em;
+    color: #3B7886;
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.40);
+    position: absolute;
+    bottom: 2%;
+    left:30%;
+    z-index: 5;
+}
+
+@media only screen and (max-width: 650px) {
+    .name-container .name {
+        font-size: 20vw;
+        line-height: 16vw;
+    }
+}
