@@ -1,0 +1,24 @@
+# docs: https://github.com/moulco/moul/tree/master/docs#example-moultoml
+base = "/"
+ga_measurement_id = ""
+
+favicon = "true"
+
+[style]
+theme = "system-preference"
+cover = "center"
+content = "left"
+
+[profile]
+name = "Nathan Green"
+bio = "Student  •  16  •  UK"
+
+[social]
+instagram = "nathangreen06"
+twitter = "realNathanGreen"
+github = "nathangreen06"
+facebook = "nathangreen06"
+
+[content]
+title = ""
+text = ""
